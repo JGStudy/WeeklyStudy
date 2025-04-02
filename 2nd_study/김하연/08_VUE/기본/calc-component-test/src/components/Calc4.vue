@@ -6,9 +6,9 @@
   </div>
 </template>
 <script>
-import { reactive, computed } from 'vue';
+import { reactive, computed } from "vue";
 export default {
-  name: 'Calc3',
+  name: "Calc4",
   setup() {
     const state = reactive({ x: 10, y: 20 }); // x, y 초기화
     const result = computed(() => {

@@ -5,9 +5,9 @@
   </div>
 </template>
 <script>
-import { watch, ref } from 'vue';
+import { watch, ref } from "vue";
 export default {
-  name: 'Calc3',
+  name: "Calc5",
   setup() {
     const x = ref(0); // 0으로 초기화
     const result = ref(0); // 0으로 초기화
