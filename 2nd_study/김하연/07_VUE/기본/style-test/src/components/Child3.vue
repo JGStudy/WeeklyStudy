@@ -1,10 +1,15 @@
 <template>
-  <div class="child"><h2>Child1</h2></div>
+  <div :class="$style.child"><h2>Child1</h2></div>
 </template>
 <script>
-export default { name: 'Child3' };
+export default {
+  name: "Child3",
+  created() {
+    console.log(this.$style.child);
+  },
+};
 </script>
-<style>
+<style module>
 .child {
   background-color: orange;
   border: solid 1px black;

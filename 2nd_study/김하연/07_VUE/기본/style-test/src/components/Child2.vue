@@ -1,10 +1,10 @@
 <template>
-  <div class="child"><h2>Child1</h2></div>
+  <div class="child"><h2>Child2</h2></div>
 </template>
 <script>
-export default { name: 'Child2' };
+export default { name: "Child2" };
 </script>
-<style>
+<style scpoed>
 .child {
   background-color: blue;
   border: solid 1px black;
